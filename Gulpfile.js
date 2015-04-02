@@ -31,6 +31,12 @@ gulp.task('dist', function(){
 
 });
 
+// Jasmine task
+gulp.task('jasmine', function () {
+    return gulp.src('./spec/test.js')
+      .pipe(jasmine());
+});
+
 
 // Default task
 gulp.task('default', function(){
