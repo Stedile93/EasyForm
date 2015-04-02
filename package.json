@@ -1,0 +1,21 @@
+{
+  "name": "easyform",
+  "version": "1.0.0",
+  "title": "EasyForm jQuery Plugin",
+  "description": "EasyForm is a jQuery plugin that provides an easier way to create contact forms",
+  "author": {
+    "name": "Giuliano Stedile <giu.stedile@gmail.com>"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stedile93/EasyForm.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.1.0"
+  }
+}
